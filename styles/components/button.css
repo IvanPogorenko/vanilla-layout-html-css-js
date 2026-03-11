@@ -2,10 +2,12 @@
 
 .button{
     background-color: var(--color-secondary);
+    font-family: var(--font-primary), serif;
     border: none;
     border-radius: 8px;
     color: var(--color-text2);
     font-size: var(--font-size-medium);
+    line-height: var(--line-height-relaxed);
     padding: 8px 30px 12px;
     cursor: pointer;
 }

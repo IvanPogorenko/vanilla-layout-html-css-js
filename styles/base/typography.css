@@ -18,28 +18,28 @@
 @font-face {
     font-family: "Roboto";
     src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-    font-weight: var(--weight-regular);
+    font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Roboto";
     src: url("../../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
-    font-weight: var(--weight-bold);
+    font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
     font-family: "OpenSans";
     src: url("../../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
-    font-weight: var(--weight-regular);
+    font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: "OpenSans";
     src: url("../../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
-    font-weight: var(--weight-bold);
+    font-weight: 700;
     font-display: swap;
 }
 
