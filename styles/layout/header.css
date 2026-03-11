@@ -1,0 +1,22 @@
+.header{
+    background-color: var(--color-background);
+}
+
+.header__container{
+    padding: 21px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list{
+    display: flex;
+    gap: 0 80px;
+}
+
+.header__nav-link{
+    text-decoration: none;
+    color: var(--color-text);
+    text-transform: uppercase;
+    font-weight: var(--weight-regular);
+}
