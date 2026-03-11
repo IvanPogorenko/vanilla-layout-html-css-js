@@ -9,9 +9,15 @@
     align-items: center;
 }
 
+.header__nav{
+    max-width: 830px;
+    width: 100%;
+    margin-left: 10px;
+}
+
 .header__nav-list{
     display: flex;
-    gap: 0 80px;
+    justify-content: space-between;
 }
 
 .header__nav-link{
@@ -19,4 +25,19 @@
     color: var(--color-text);
     text-transform: uppercase;
     font-weight: var(--weight-regular);
+}
+
+.header__burger{
+    display: none;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__burger{
+        display: flex;
+    }
 }

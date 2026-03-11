@@ -16,13 +16,15 @@
 .about-company__info{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .about-company__gallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    flex: 1 1 55%;
 }
 
 .about-company__gallery-item{
@@ -42,7 +44,7 @@
 }
 
 .about-company__description{
-    margin-left: 30px;
+    flex: 1 1 45%;
     max-width: 705px;
 }
 
@@ -72,4 +74,44 @@
 .about-company__additional{
     margin: 20px 0 30px;
     font-weight: var(--weight-regular);
+}
+
+@media screen and (max-width: 1440px) {
+
+    .about-company__container{
+        padding: 80px 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+    .about-company__container{
+        padding: 50px 0 50px;
+    }
+
+    .about-company__info{
+        flex-direction: column;
+    }
+
+    .about-company__title{
+        font-size: 1.85rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-company__title{
+        font-size: 1.30rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-company__title{
+        margin-bottom: 20px;
+    }
+
+    .about-company__gallery{
+        gap: 16px;
+    }
 }

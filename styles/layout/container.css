@@ -2,4 +2,37 @@
     --max-width: 1440px;
     max-width: var(--max-width);
     margin: 0 auto;
+    padding: 0 140px;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .container{
+        padding: 0 196px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        padding: 0 96px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        padding: 0 108px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .container{
+        padding: 0 15px;
+    }
+
 }
