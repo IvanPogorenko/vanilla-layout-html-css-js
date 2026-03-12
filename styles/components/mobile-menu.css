@@ -43,7 +43,7 @@
 }
 
 .mobile-menu__link:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 @media screen and (min-width: 1161px) {
