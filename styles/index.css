@@ -3,6 +3,7 @@
 
 @import "layout/container.css";
 @import "layout/header.css";
+@import "layout/footer.css";
 
 @import "sections/recommendation.css";
 @import "sections/about-company.css";
