@@ -28,6 +28,10 @@
     font-weight: var(--weight-regular);
 }
 
+.header__nav-link:hover{
+    color: var(--color-primary);
+}
+
 .header__burger{
     display: none;
 }
